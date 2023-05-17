@@ -1,0 +1,77 @@
+.navbar {
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  min-width: 975px;
+  top: 0;
+  background-color: white;
+  overflow: hidden;
+  z-index: 900;
+
+  .wrapper {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .item {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+
+      .booksImage {
+        width: 80px;
+        height: 60px;
+      }
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+      letter-spacing: 2px;
+      color: #1e6df5;
+      font-weight: 500;
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+
+      .icons {
+        display: flex;
+        gap: 15px;
+        color: #777;
+        cursor: pointer;
+
+        .cartIcon {
+          position: relative;
+
+          span {
+            position: absolute;
+            font-size: 12px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #1e6df5;
+            color: white;
+            right: -10px;
+            top: -10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

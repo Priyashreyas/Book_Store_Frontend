@@ -1,0 +1,101 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .item {
+    .offScreen {
+      position: absolute;
+      left: -9999px;
+    }
+
+    .errMsg {
+      margin-top: 30px;
+      background-color: lightpink;
+      color: firebrick;
+      font-weight: bold;
+      padding: 0.5rem;
+    }
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 450px;
+    height: 480px;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+
+    .item {
+      .booksImage {
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+
+        .item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: #5e5d5d;
+
+          .signIn {
+            margin-top: 10px;
+            width: 250px;
+            padding: 10px;
+            background-color: #1e6df5;
+            color: white;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+            font-weight: 500;
+          }
+
+          #username {
+            width: 245px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            font-size: 15px;
+          }
+
+          #password {
+            width: 245px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            font-size: 15px;
+          }
+        }
+      }
+
+      .signUp {
+        width: 250px;
+        padding: 10px;
+        background-color: #1e6df5;
+        color: white;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        font-weight: 500;
+      }
+    }
+  }
+}

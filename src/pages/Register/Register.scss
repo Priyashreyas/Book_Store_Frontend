@@ -1,0 +1,80 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .item {
+    .offScreen {
+      position: absolute;
+      left: -9999px;
+    }
+
+    .errMsg {
+      margin-top: 30px;
+      background-color: lightpink;
+      color: firebrick;
+      font-weight: bold;
+      padding: 0.5rem;
+    }
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    .item {
+      .booksImage {
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+
+        .item {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: #5e5d5d;
+
+          .registerBtn {
+            width: 250px;
+            padding: 10px;
+            background-color: #1e6df5;
+            color: white;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: center;
+            font-weight: 500;
+          }
+
+          input {
+            width: 450px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            font-size: 15px;
+          }
+
+          #firstName {
+            width: 216px;
+          }
+
+          #lastName {
+            width: 216px;
+          }
+        }
+      }
+    }
+  }
+}

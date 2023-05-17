@@ -1,0 +1,36 @@
+.editUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: 400;
+
+  margin-top: 200px;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    .item {
+
+      .saveBtn {
+        width: 250px;
+        padding: 10px;
+        background-color: #1e6df5;
+        color: white;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        font-weight: 500;
+      }
+    }
+  }
+}

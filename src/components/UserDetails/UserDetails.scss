@@ -1,0 +1,45 @@
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #5e5d5d;
+
+    .registerBtn {
+      width: 250px;
+      padding: 10px;
+      background-color: #1e6df5;
+      color: white;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      font-weight: 500;
+    }
+
+    input {
+      width: 450px;
+      height: 30px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+
+    #firstName {
+      width: 216px;
+    }
+
+    #lastName {
+      width: 216px;
+    }
+  }
+}
