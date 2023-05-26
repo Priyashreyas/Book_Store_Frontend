@@ -5,7 +5,7 @@ import {useNavigate, useParams} from "react-router-dom";
 import axios from "../../api/Axios";
 import AuthContext from "../../context/AuthProvider";
 import useRefreshToken from "../../hooks/UseRefreshToken";
-
+import { Rating } from '@mui/material';
 const BOOKS_URL = process.env.REACT_APP_BOOKS_URL;
 
 
@@ -106,11 +106,20 @@ const Book = (props) => {
           }
           <h1>{bookData.title}</h1>
           <span className="price">{bookData.currency}{bookData.price}</span>
+          <Rating
+            name="ratingComp"
+            value={bookData.stars}
+            precision={0.5}
+            readOnly
+            onChange={(event, newValue) => {
+            //setValue(newValue);
+            }}
+          />
           <div className="info">
             <span>Author: {bookData.author.firstName} {bookData.author.lastName}</span>
             <span>Genre: {bookData.genre}</span>
           </div>
-          <p>{bookData.description}</p>
+         {/*  <p>{bookData.description}</p>  */}
           <div className="quantity">
             <button onClick={event => setQuantity(prevState => prevState === 1 ? 1 : prevState - 1)}>-</button>
             {quantity}

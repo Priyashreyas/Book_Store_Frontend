@@ -5,14 +5,93 @@
   min-width: 975px;
   top: 0;
   background-color: white;
-  overflow: hidden;
+  //overflow: hidden;
   z-index: 900;
 
+  .searchInputs {
+    margin-top: 50px;
+    display: flex;
+    border-color: 'black';
+    padding: 100px;
+    width: 400px;
+    height: 40px;
+    left: 20%;
+    top: 20%;
+    margin-left: 40px;
+    //position: absolute;
+   // transform: translate(50%, 50%);
+  }
+  .search input {
+    //background-color: grey;
+    border: 0;
+    border-color: 'black';
+    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    padding: 10px;
+    height: 20px;
+    width: 200px;
+  }
+
+  .searchIcon {
+    height: 100px;
+    width: 80px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+  }
+  .searchIcon svg {
+    font-size: 50px;
+  }
+  
+    
+  .dataResult {
+    margin-top: 10px;
+    width: 240px;
+    height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+    left: 25%;
+    top: 62%;
+    //position: fixed;
+  }
+  .dataResult::-webkit-scrollbar {
+    display: none;
+  }
+
+  .dataResult .dataItem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+  .dataItem p {
+    margin-left: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: lightgrey;
+  }
+  
+  #clearBtn {
+    cursor: pointer;
+  }
   .wrapper {
     padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
     .item {
       display: flex;
@@ -22,6 +101,7 @@
       .booksImage {
         width: 80px;
         height: 60px;
+        position: fixed;
       }
     }
 
@@ -29,11 +109,12 @@
       display: flex;
       align-items: center;
       gap: 25px;
+      position: absolute;
     }
 
     .center {
-      position: absolute;
-      top: 50%;
+      position: relative;
+      top: 0%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 30px;
@@ -54,8 +135,8 @@
         cursor: pointer;
 
         .cartIcon {
-          position: relative;
-
+           position: relative;
+         
           span {
             position: absolute;
             font-size: 12px;

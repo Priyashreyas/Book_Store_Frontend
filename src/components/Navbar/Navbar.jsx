@@ -6,16 +6,49 @@ import './Navbar.scss'
 import Cart from "../../pages/Cart/Cart";
 import axios from "../../api/Axios";
 import AuthContext from "../../context/AuthProvider";
+import SearchIcon from "@material-ui/icons/Search";
+import CloseIcon from "@material-ui/icons/Close";
 
 const LOGOUT_URL = process.env.REACT_APP_LOGOUT_URL;
 
-const Navbar = (props) => {
+const Navbar = ({ placeholder, data }) => {
   const {setAuth} = useContext(AuthContext);
   const [open, setOpen] = useState(false);
   const location = useLocation();
   const {auth} = useContext(AuthContext);
   const navigate = useNavigate();
   const nonLoggedInPages = new Set(['/login', '/register']);
+
+  //added ankita
+  const [filteredData, setFilteredData] = useState([]);
+  const [wordEntered, setWordEntered] = useState("");
+  const handleFilter = (event) => {
+    const searchWord = event.target.value;
+    setWordEntered(searchWord);
+    const newFilter = data.filter((value) => {
+      return value.title.toLowerCase().includes(searchWord.toLowerCase());
+    });
+    const newFilterName = data.filter((value) => {
+      return value.author.firstName.toLowerCase().includes(searchWord.toLowerCase());
+    });
+   
+
+    if (searchWord === "") {
+      setFilteredData([]);
+    } else {
+      const fullData =  newFilter.concat(newFilterName)
+      //const fullDataWithGenre = fullData.concat(newFilterGenre);
+      setFilteredData(fullData);
+      //setFilteredData(newFilterName);
+      
+    }
+  };
+
+  const clearInput = () => {
+    setFilteredData([]);
+    setWordEntered("");
+  };
+
 
   const logout = async function () {
     console.log(auth?.accessToken);
@@ -70,12 +103,46 @@ const Navbar = (props) => {
               <img className="booksImage" src="/img/book_store_logo.png" alt="Book Store"/>
             </Link>
           </div>
-          <div className="item">
+         {/* <div className="item">
             <Link className="link" to="/category/1">Featured</Link>
           </div>
           <div className="item">
             <Link className="link" to="/category/2">Trending</Link>
           </div>
+  */}
+   <div className="search">
+        <div className="searchInputs">
+            <input
+              type="text"
+              placeholder= "Search.."
+              value={wordEntered}
+              onChange={handleFilter}
+            /> 
+            <div className="searchIco">
+             {filteredData.length === 0 ? (
+                <SearchIcon />
+              ) : (
+                <CloseIcon id="clearBtn" onClick={clearInput} />
+              )}
+            </div>
+        </div>
+         
+         
+          {filteredData.length != 0 && (
+           
+            <div className="dataResult">
+              {filteredData.slice(0, 8).map((value, key) => {
+                return (
+                  <a className="dataItem" href={'http://localhost:3000/book/'+value._id} target="_blank">
+                     <p>{value.title} </p>
+                 </a>
+                );
+                
+              })}
+            </div>
+            
+          )}
+    </div>
         </div>
         <div className="center">
           <Link className="link" to="/">BOOK&nbsp;&nbsp;STORE</Link>

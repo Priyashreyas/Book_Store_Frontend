@@ -13,11 +13,12 @@ import EditBook from "./pages/Book/EditBook";
 import Users from "./pages/Users/Users";
 import EditUser from "./pages/Users/EditUser";
 import NewBook from "./pages/Book/NewBook";
+import BookData from './BookData.json';
 
 const Layout = () => {
   return (
     <div className="app">
-      <Navbar/>
+      <Navbar data={BookData}/>
       <div className="outlet">
         <Outlet/>
       </div>

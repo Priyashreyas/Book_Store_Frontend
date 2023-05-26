@@ -5,11 +5,11 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <div className="top">
-        <div className="item">
+        {/*<div className="item">
           <h1>Categories</h1>
           <span>Category 1</span>
           <span>Category 2</span>
-        </div>
+  </div> */}
         <div className="item">
           <h1>Links</h1>
           <span>FAQ</span>

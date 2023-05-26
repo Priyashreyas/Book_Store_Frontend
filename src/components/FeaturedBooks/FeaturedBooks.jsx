@@ -56,12 +56,12 @@ const FeaturedBooks = ({type}) => {
       <div className="featuredBooks">
         <div className="top">
           <h1>{type} products</h1>
-          <p>
+         {/* <p>
             Senectus suscipit ipsum impedit? Aliquip aliquid iure fringilla, erat natoque deleniti esse architecto,
             class convallis sagittis nisl sunt vel harum sem reprehenderit. Bibendum pretium sodales architecto hac
             eligendi repudiandae dolorum, dolorum ex. Quis eum, quasi sociosqu, ultricies dolorem, porro fermentum
             lobortis commodi cillum interdum, lacus qui, commodo illum. Diam. Consequuntur.
-          </p>
+    </p> */}
         </div>
         <div className="bottom">
           <div className={"cards"}>
