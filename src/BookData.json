@@ -1,0 +1,2522 @@
+[
+    {
+      "_id": 9781408708989,
+      "title": "Fantastic Beasts and Where to Find Them",
+      "price": 11.050000190734863,
+      "oldPrice": 21.5,
+      "author": {
+        "firstName": "J. K.",
+        "lastName": "Rowling"
+      },
+      "genre": "Art-Photography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4087/9781408708989.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4087/9781408708989.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780752265629,
+      "title": "The Mindfulness Colouring Book",
+      "price": 6.800000190734863,
+      "oldPrice": 10.5,
+      "author": {
+        "firstName": "Emma",
+        "lastName": "Farrarons"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7522/9780752265629.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7522/9780752265629.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781408711705,
+      "title": "Fantastic Beasts: The Crimes of Grindelwald - The Original Screenplay",
+      "price": 15.140000343322754,
+      "oldPrice": 18,
+      "author": {
+        "firstName": "J.K.",
+        "lastName": "Rowling"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4087/9781408711705.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4087/9781408711705.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9788883705625,
+      "title": "Moleskine Large Watercolour Album And Notebook",
+      "price": 11.859999656677246,
+      "oldPrice": 19.899999618530273,
+      "author": {
+        "firstName": "",
+        "lastName": "Moleskine"
+      },
+      "genre": "Art-Photography",
+      "stars": 0,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9788/8837/9788883705625.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9788/8837/9788883705625.jpg"
+      ],
+      "format": "Notebook / blank book",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780141014081,
+      "title": "The Complete MAUS",
+      "price": 17.610000610351562,
+      "oldPrice": 21.100000381469727,
+      "author": {
+        "firstName": "Art",
+        "lastName": "Spiegelman"
+      },
+      "genre": "Art-Photography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1410/9780141014081.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1410/9780141014081.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781250038821,
+      "title": "Humans of New York",
+      "price": 21.459999084472656,
+      "oldPrice": 30.399999618530273,
+      "author": {
+        "firstName": "Brandon",
+        "lastName": "Stanton"
+      },
+      "genre": "Art-Photography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/2500/9781250038821.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/2500/9781250038821.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780141035796,
+      "title": "Ways of Seeing",
+      "price": 8.359999656677246,
+      "oldPrice": 10.300000190734863,
+      "author": {
+        "firstName": "John",
+        "lastName": "Berger"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1410/9780141035796.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1410/9780141035796.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781849941679,
+      "title": "Millie Marotta's Animal Kingdom",
+      "price": 11.600000381469727,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Millie",
+        "lastName": "Marotta"
+      },
+      "genre": "Art-Photography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8499/9781849941679.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8499/9781849941679.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780099539551,
+      "title": "The Hare with Amber Eyes",
+      "price": 12.75,
+      "oldPrice": 13.899999618530273,
+      "author": {
+        "firstName": "Edmund de",
+        "lastName": "Waal"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0995/9780099539551.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0995/9780099539551.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780747568766,
+      "title": "Just Kids",
+      "price": 9.430000305175781,
+      "oldPrice": 12.399999618530273,
+      "author": {
+        "firstName": "Patti",
+        "lastName": "Smith"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7475/9780747568766.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7475/9780747568766.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781408890769,
+      "title": "Harry Potter - A History of Magic",
+      "price": 30.920000076293945,
+      "oldPrice": 37.599998474121094,
+      "author": {
+        "firstName": "British",
+        "lastName": "Library"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4088/9781408890769.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4088/9781408890769.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780751535662,
+      "title": "Scar Tissue",
+      "price": 10.65999984741211,
+      "oldPrice": 13.899999618530273,
+      "author": {
+        "firstName": "Anthony",
+        "lastName": "Kiedis"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7515/9780751535662.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7515/9780751535662.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780716022237,
+      "title": "How to Draw Anything",
+      "price": 5.260000228881836,
+      "oldPrice": 10.300000190734863,
+      "author": {
+        "firstName": "Mark",
+        "lastName": "Linley"
+      },
+      "genre": "Art-Photography",
+      "stars": 3.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7160/9780716022237.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7160/9780716022237.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781509829477,
+      "title": "The Artist's Way",
+      "price": 12.609999656677246,
+      "oldPrice": 21.100000381469727,
+      "author": {
+        "firstName": "Julia",
+        "lastName": "Cameron"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5098/9781509829477.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5098/9781509829477.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780500513606,
+      "title": "Chanel",
+      "price": 31.18000030517578,
+      "oldPrice": 37.099998474121094,
+      "author": {
+        "firstName": "Daniele",
+        "lastName": "Bott"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/5005/9780500513606.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/5005/9780500513606.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781847807717,
+      "title": "Coco Chanel",
+      "price": 10.010000228881836,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Isabel Sanchez",
+        "lastName": "Vegara"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8478/9781847807717.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8478/9781847807717.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780877180128,
+      "title": "John Thompson's Easiest Piano Course",
+      "price": 6.710000038146973,
+      "oldPrice": 8,
+      "author": {
+        "firstName": "John",
+        "lastName": "Thompson"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8771/9780877180128.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8771/9780877180128.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780751574951,
+      "title": "Fantastic Beasts and Where to Find Them",
+      "price": 7.099999904632568,
+      "oldPrice": 10.5,
+      "author": {
+        "firstName": "J. K.",
+        "lastName": "Rowling"
+      },
+      "genre": "Art-Photography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7515/9780751574951.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7515/9780751574951.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780340936177,
+      "title": "My Booky Wook",
+      "price": 9.34000015258789,
+      "oldPrice": 13.899999618530273,
+      "author": {
+        "firstName": "Russell",
+        "lastName": "Brand"
+      },
+      "genre": "Art-Photography",
+      "stars": 3.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3409/9780340936177.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3409/9780340936177.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780099457046,
+      "title": "Moab Is My Washpot",
+      "price": 5.989999771118164,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Stephen",
+        "lastName": "Fry"
+      },
+      "genre": "Art-Photography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0994/9780099457046.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0994/9780099457046.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781509858637,
+      "title": "This is Going to Hurt",
+      "price": 7.599999904632568,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Adam",
+        "lastName": "Kay"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5098/9781509858637.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5098/9781509858637.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780141986005,
+      "title": "Good Night Stories for Rebel Girls",
+      "price": 20.860000610351562,
+      "oldPrice": 24,
+      "author": {
+        "firstName": "Elena",
+        "lastName": "Favilli"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141986005.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780241334140,
+      "title": "Becoming",
+      "price": 24.209999084472656,
+      "oldPrice": 26,
+      "author": {
+        "firstName": "Michelle",
+        "lastName": "Obama"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/2413/9780241334140.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/2413/9780241334140.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780099511021,
+      "title": "Educated",
+      "price": 9.609999656677246,
+      "oldPrice": 11.5,
+      "author": {
+        "firstName": "Tara",
+        "lastName": "Westover"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0995/9780099511021.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0995/9780099511021.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781784701994,
+      "title": "When Breath Becomes Air",
+      "price": 9.050000190734863,
+      "oldPrice": 11.5,
+      "author": {
+        "firstName": "Paul",
+        "lastName": "Kalanithi"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7847/9781784701994.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7847/9781784701994.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781408878729,
+      "title": "Lost Connections",
+      "price": 8.529999732971191,
+      "oldPrice": 11.5,
+      "author": {
+        "firstName": "Johann",
+        "lastName": "Hari"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4088/9781408878729.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4088/9781408878729.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781473695986,
+      "title": "Brief Answers to the Big Questions",
+      "price": 11.640000343322754,
+      "oldPrice": 18,
+      "author": {
+        "firstName": "Stephen",
+        "lastName": "Hawking"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473695986.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473695986.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781473635302,
+      "title": "Born A Crime",
+      "price": 8.300000190734863,
+      "oldPrice": 12.399999618530273,
+      "author": {
+        "firstName": "Trevor",
+        "lastName": "Noah"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473635302.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473635302.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780997895827,
+      "title": "Goodnight Stories for Rebel Girls 2",
+      "price": 21.149999618530273,
+      "oldPrice": 30.899999618530273,
+      "author": {
+        "firstName": "Elena",
+        "lastName": "Favilli"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/9978/9780997895827.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/9978/9780997895827.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781846045127,
+      "title": "The Choice",
+      "price": 9.369999885559082,
+      "oldPrice": 11.5,
+      "author": {
+        "firstName": "Edith",
+        "lastName": "Eger"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8460/9781846045127.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8460/9781846045127.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780753557525,
+      "title": "Elon Musk",
+      "price": 7.610000133514404,
+      "oldPrice": 7.800000190734863,
+      "author": {
+        "firstName": "Ashlee",
+        "lastName": "Vance"
+      },
+      "genre": "Biography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7535/9780753557525.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7535/9780753557525.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780751529814,
+      "title": "Tuesdays With Morrie",
+      "price": 5.150000095367432,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Mitch",
+        "lastName": "Albom"
+      },
+      "genre": "Biography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7515/9780751529814.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7515/9780751529814.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781509868087,
+      "title": "Bad Blood",
+      "price": 8.399999618530273,
+      "oldPrice": 12.399999618530273,
+      "author": {
+        "firstName": "John",
+        "lastName": "Carreyrou"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5098/9781509868087.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5098/9781509868087.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780747585664,
+      "title": "Eat, Pray, Love",
+      "price": 8.859999656677246,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Elizabeth",
+        "lastName": "Gilbert"
+      },
+      "genre": "Biography",
+      "stars": 3.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7475/9780747585664.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7475/9780747585664.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781529028485,
+      "title": "No Friend but the Mountains",
+      "price": 8.680000305175781,
+      "oldPrice": 12.399999618530273,
+      "author": {
+        "firstName": "Behrouz",
+        "lastName": "Boochani"
+      },
+      "genre": "Biography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5290/9781529028485.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5290/9781529028485.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780062105240,
+      "title": "The Happiness Project",
+      "price": 7.340000152587891,
+      "oldPrice": 8.800000190734863,
+      "author": {
+        "firstName": "Gretchen",
+        "lastName": "Rubin"
+      },
+      "genre": "Biography",
+      "stars": 3.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0621/9780062105240.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0621/9780062105240.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781780226583,
+      "title": "I Am Malala",
+      "price": 8.25,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Malala",
+        "lastName": "Yousafzai"
+      },
+      "genre": "Biography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7802/9781780226583.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7802/9781780226583.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781471146725,
+      "title": "Shoe Dog",
+      "price": 9.069999694824219,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Phil",
+        "lastName": "Knight"
+      },
+      "genre": "Biography",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4711/9781471146725.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4711/9781471146725.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780753541647,
+      "title": "Lean In",
+      "price": 9.760000228881836,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Sheryl",
+        "lastName": "Sandberg"
+      },
+      "genre": "Biography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7535/9780753541647.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7535/9780753541647.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780753510995,
+      "title": "Screw It, Let's Do It",
+      "price": 4.150000095367432,
+      "oldPrice": 4.699999809265137,
+      "author": {
+        "firstName": "Sir Richard",
+        "lastName": "Branson"
+      },
+      "genre": "Biography",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7535/9780753510995.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7535/9780753510995.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780340733509,
+      "title": "The Power of Now",
+      "price": 8.199999809265137,
+      "oldPrice": 13.899999618530273,
+      "author": {
+        "firstName": "Eckhart",
+        "lastName": "Tolle"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3407/9780340733509.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3407/9780340733509.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781439199190,
+      "title": "How to Win Friends and Influence People",
+      "price": 8.300000190734863,
+      "oldPrice": 9.5,
+      "author": {
+        "firstName": "Dale",
+        "lastName": "Carnegie"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4391/9781439199190.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4391/9781439199190.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781845298258,
+      "title": "The Happiness Trap",
+      "price": 8.34000015258789,
+      "oldPrice": 13.899999618530273,
+      "author": {
+        "firstName": "Russ",
+        "lastName": "Harris"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8452/9781845298258.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8452/9781845298258.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780141978611,
+      "title": "The Body Keeps the Score",
+      "price": 10.989999771118164,
+      "oldPrice": 13.899999618530273,
+      "author": {
+        "firstName": "Bessel van der",
+        "lastName": "Kolk"
+      },
+      "genre": "Health",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141978611.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141978611.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780718154776,
+      "title": "Jamie's 30-Minute Meals",
+      "price": 27.389999389648438,
+      "oldPrice": 31.5,
+      "author": {
+        "firstName": "Jamie",
+        "lastName": "Oliver"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718154776.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718154776.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780141983769,
+      "title": "Why We Sleep",
+      "price": 9.930000305175781,
+      "oldPrice": 12.399999618530273,
+      "author": {
+        "firstName": "Matthew",
+        "lastName": "Walker"
+      },
+      "genre": "Health",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141983769.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141983769.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781780723624,
+      "title": "The Fast 800",
+      "price": 9.09000015258789,
+      "oldPrice": 11.5,
+      "author": {
+        "firstName": "Michael",
+        "lastName": "Mosley"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7807/9781780723624.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7807/9781780723624.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780553386691,
+      "title": "The Whole-Brain Child",
+      "price": 12.710000038146973,
+      "oldPrice": 21.100000381469727,
+      "author": {
+        "firstName": "Daniel J",
+        "lastName": "Siegel"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/5533/9780553386691.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/5533/9780553386691.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780718157807,
+      "title": "Jamie's 15-Minute Meals",
+      "price": 27.299999237060547,
+      "oldPrice": 31.5,
+      "author": {
+        "firstName": "Jamie",
+        "lastName": "Oliver"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718157807.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718157807.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780802412706,
+      "title": "Five Love Languages Revised Edition",
+      "price": 11.609999656677246,
+      "oldPrice": 15,
+      "author": {
+        "firstName": "Gary",
+        "lastName": "Chapman"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8024/9780802412706.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8024/9780802412706.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781856753531,
+      "title": "The Little Book of Mindfulness",
+      "price": 5.880000114440918,
+      "oldPrice": 8.800000190734863,
+      "author": {
+        "firstName": "Dr. Patrizia",
+        "lastName": "Collard"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8567/9781856753531.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8567/9781856753531.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781780722405,
+      "title": "The 8-week Blood Sugar Diet",
+      "price": 8.850000381469727,
+      "oldPrice": 11.300000190734863,
+      "author": {
+        "firstName": "Michael",
+        "lastName": "Mosley"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7807/9781780722405.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7807/9781780722405.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781780723044,
+      "title": "The Clever Guts Diet",
+      "price": 8.920000076293945,
+      "oldPrice": 11.300000190734863,
+      "author": {
+        "firstName": "Michael",
+        "lastName": "Mosley"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7807/9781780723044.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7807/9781780723044.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780349142920,
+      "title": "Little Fires Everywhere",
+      "price": 8.140000343322754,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Celeste",
+        "lastName": "Ng"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3491/9780349142920.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3491/9780349142920.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780141039411,
+      "title": "A New Earth",
+      "price": 9.720000267028809,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Eckhart",
+        "lastName": "Tolle"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1410/9780141039411.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1410/9780141039411.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780091929503,
+      "title": "Save Our Sleep",
+      "price": 13.09000015258789,
+      "oldPrice": 16,
+      "author": {
+        "firstName": "Tizzie",
+        "lastName": "Hall"
+      },
+      "genre": "Health",
+      "stars": 3.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0919/9780091929503.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0919/9780091929503.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780091924850,
+      "title": "Annabel Karmel's New Complete Baby & Toddler Meal Planner - 4th Edition",
+      "price": 17.110000610351562,
+      "oldPrice": 19.100000381469727,
+      "author": {
+        "firstName": "Annabel",
+        "lastName": "Karmel"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0919/9780091924850.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0919/9780091924850.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781447277668,
+      "title": "What I Know for Sure",
+      "price": 11.100000381469727,
+      "oldPrice": 20.100000381469727,
+      "author": {
+        "firstName": "Oprah",
+        "lastName": "Winfrey"
+      },
+      "genre": "Health",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447277668.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447277668.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780399160288,
+      "title": "Peaceful Parent, Happy Kids",
+      "price": 13.649999618530273,
+      "oldPrice": 16.489999771118164,
+      "author": {
+        "firstName": "Laura",
+        "lastName": "Markham"
+      },
+      "genre": "Health",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3991/9780399160288.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3991/9780399160288.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781846685828,
+      "title": "Being Mortal",
+      "price": 9.029999732971191,
+      "oldPrice": 11.5,
+      "author": {
+        "firstName": "Atul",
+        "lastName": "Gawande"
+      },
+      "genre": "Health",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8466/9781846685828.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8466/9781846685828.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781444775815,
+      "title": "A Man Called Ove",
+      "price": 9.5600004196167,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Fredrik",
+        "lastName": "Backman"
+      },
+      "genre": "Humour",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4447/9781444775815.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4447/9781444775815.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780141976143,
+      "title": "Wreck This Journal",
+      "price": 9.59000015258789,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Keri",
+        "lastName": "Smith"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141976143.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141976143.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781848549562,
+      "title": "What If?",
+      "price": 10.619999885559082,
+      "oldPrice": 12.399999618530273,
+      "author": {
+        "firstName": "Randall",
+        "lastName": "Munroe"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8485/9781848549562.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8485/9781848549562.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781847399304,
+      "title": "The Bro Code",
+      "price": 7.519999980926514,
+      "oldPrice": 10.300000190734863,
+      "author": {
+        "firstName": "Barney",
+        "lastName": "Stinson"
+      },
+      "genre": "Humour",
+      "stars": 3.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8473/9781847399304.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8473/9781847399304.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781849534970,
+      "title": "52 Things to Do While You Poo",
+      "price": 7.929999828338623,
+      "oldPrice": 8.800000190734863,
+      "author": {
+        "firstName": "Hugh",
+        "lastName": "Jassburn"
+      },
+      "genre": "Humour",
+      "stars": 3.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8495/9781849534970.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8495/9781849534970.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780241982105,
+      "title": "Everything I Know About Love",
+      "price": 9.109999656677246,
+      "oldPrice": 13,
+      "author": {
+        "firstName": "Dolly",
+        "lastName": "Alderton"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/2419/9780241982105.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/2419/9780241982105.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781401216672,
+      "title": "Batman The Killing Joke, Deluxe Edition",
+      "price": 14.180000305175781,
+      "oldPrice": 18,
+      "author": {
+        "firstName": "Alan",
+        "lastName": "Moore"
+      },
+      "genre": "Humour",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4012/9781401216672.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4012/9781401216672.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780718184216,
+      "title": "How It Works: The Mum",
+      "price": 7.840000152587891,
+      "oldPrice": 10.300000190734863,
+      "author": {
+        "firstName": "Jason",
+        "lastName": "Hazeley"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718184216.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718184216.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781449474195,
+      "title": "Adulthood Is a Myth",
+      "price": 9.020000457763672,
+      "oldPrice": 15,
+      "author": {
+        "firstName": "Sarah",
+        "lastName": "Andersen"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4494/9781449474195.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4494/9781449474195.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780718183561,
+      "title": "How it Works: The Husband",
+      "price": 7.829999923706055,
+      "oldPrice": 10.300000190734863,
+      "author": {
+        "firstName": "Jason",
+        "lastName": "Hazeley"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718183561.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718183561.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781473620919,
+      "title": "Thing Explainer",
+      "price": 16.860000610351562,
+      "oldPrice": 21.5,
+      "author": {
+        "firstName": "Randall",
+        "lastName": "Munroe"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473620919.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473620919.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781409120537,
+      "title": "Attachments",
+      "price": 7.789999961853027,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Rainbow",
+        "lastName": "Rowell"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4091/9781409120537.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4091/9781409120537.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780330354912,
+      "title": "How Proust Can Change Your Life",
+      "price": 6.489999771118164,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Alain de",
+        "lastName": "Botton"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3303/9780330354912.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3303/9780330354912.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781846148583,
+      "title": "Wreck This Journal Everywhere",
+      "price": 5.829999923706055,
+      "oldPrice": 7.800000190734863,
+      "author": {
+        "firstName": "Keri",
+        "lastName": "Smith"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8461/9781846148583.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8461/9781846148583.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781452106557,
+      "title": "Darth Vader and Son",
+      "price": 9.609999656677246,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Jeffrey",
+        "lastName": "Brown"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4521/9781452106557.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4521/9781452106557.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781849832496,
+      "title": "The Playbook",
+      "price": 7,
+      "oldPrice": 10.300000190734863,
+      "author": {
+        "firstName": "Barney",
+        "lastName": "Stinson"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8498/9781849832496.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8498/9781849832496.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780330492270,
+      "title": "The Psychopath Test",
+      "price": 8.229999542236328,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Jon",
+        "lastName": "Ronson"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3304/9780330492270.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3304/9780330492270.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780091957179,
+      "title": "Is Everyone Hanging Out Without Me?",
+      "price": 8.960000038146973,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Mindy",
+        "lastName": "Kaling"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0919/9780091957179.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0919/9780091957179.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780718183547,
+      "title": "How it Works: The Wife",
+      "price": 7.820000171661377,
+      "oldPrice": 10.300000190734863,
+      "author": {
+        "firstName": "Jason",
+        "lastName": "Hazeley"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718183547.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7181/9780718183547.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781449410247,
+      "title": "How to Tell If Your Cat is Plotting to Kill You",
+      "price": 10.5600004196167,
+      "oldPrice": 12.619999885559082,
+      "author": {
+        "firstName": "Matthew",
+        "lastName": "Inman"
+      },
+      "genre": "Humour",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4494/9781449410247.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4494/9781449410247.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781472103536,
+      "title": "Legacy",
+      "price": 9.699999809265137,
+      "oldPrice": 16,
+      "author": {
+        "firstName": "James",
+        "lastName": "Kerr"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4721/9781472103536.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4721/9781472103536.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781861978776,
+      "title": "Born to Run",
+      "price": 9.050000190734863,
+      "oldPrice": 12.399999618530273,
+      "author": {
+        "firstName": "Christopher",
+        "lastName": "McDougall"
+      },
+      "genre": "Sport",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8619/9781861978776.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/8619/9781861978776.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781450400244,
+      "title": "Yoga Anatomy",
+      "price": 17.729999542236328,
+      "oldPrice": 21.100000381469727,
+      "author": {
+        "firstName": "Leslie",
+        "lastName": "Kaminoff"
+      },
+      "genre": "Sport",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4504/9781450400244.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4504/9781450400244.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781405937184,
+      "title": "The Salt Path",
+      "price": 9.529999732971191,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Raynor",
+        "lastName": "Winn"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4059/9781405937184.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4059/9781405937184.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781447200185,
+      "title": "Into Thin Air",
+      "price": 8.489999771118164,
+      "oldPrice": 12.399999618530273,
+      "author": {
+        "firstName": "Jon",
+        "lastName": "Krakauer"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447200185.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447200185.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780099532538,
+      "title": "What I Talk About When I Talk About Running",
+      "price": 8.329999923706055,
+      "oldPrice": 10.300000190734863,
+      "author": {
+        "firstName": "Haruki",
+        "lastName": "Murakami"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0995/9780099532538.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0995/9780099532538.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780307388407,
+      "title": "Open",
+      "price": 11.970000267028809,
+      "oldPrice": 12.399999618530273,
+      "author": {
+        "firstName": "Andre",
+        "lastName": "Agassi"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3073/9780307388407.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3073/9780307388407.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781476714202,
+      "title": "Relentless",
+      "price": 9.399999618530273,
+      "oldPrice": 17,
+      "author": {
+        "firstName": "Tim S.",
+        "lastName": "Grover"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4767/9781476714202.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4767/9781476714202.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780736092265,
+      "title": "Strength Training Anatomy",
+      "price": 13.829999923706055,
+      "oldPrice": 13.989999771118164,
+      "author": {
+        "firstName": "Frederic",
+        "lastName": "Delavier"
+      },
+      "genre": "Sport",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7360/9780736092265.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7360/9780736092265.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781447210986,
+      "title": "The Boys In The Boat",
+      "price": 8.0600004196167,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Daniel James",
+        "lastName": "Brown"
+      },
+      "genre": "Sport",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447210986.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447210986.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780099519850,
+      "title": "The Talent Code",
+      "price": 9.050000190734863,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Daniel",
+        "lastName": "Coyle"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0995/9780099519850.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0995/9780099519850.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780857052551,
+      "title": "Norwegian Wood",
+      "price": 16.959999084472656,
+      "oldPrice": 25.200000762939453,
+      "author": {
+        "firstName": "Lars",
+        "lastName": "Mytting"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8570/9780857052551.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8570/9780857052551.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780307279187,
+      "title": "Born to Run",
+      "price": 13.760000228881836,
+      "oldPrice": 17,
+      "author": {
+        "firstName": "Christopher",
+        "lastName": "McDougall"
+      },
+      "genre": "Sport",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3072/9780307279187.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3072/9780307279187.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781590302484,
+      "title": "The Book Of Five Rings",
+      "price": 6.889999866485596,
+      "oldPrice": 10.300000190734863,
+      "author": {
+        "firstName": "Miyamoto",
+        "lastName": "Musashi"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5903/9781590302484.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5903/9781590302484.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781760340834,
+      "title": "Epic Bike Rides of the World",
+      "price": 21.43000030517578,
+      "oldPrice": 31.399999618530273,
+      "author": {
+        "firstName": "Lonely",
+        "lastName": "Planet"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7603/9781760340834.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/7603/9781760340834.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781905026494,
+      "title": "Mud, Sweat and Tears",
+      "price": 11.65999984741211,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Bear",
+        "lastName": "Grylls"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/9050/9781905026494.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/9050/9781905026494.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780007281435,
+      "title": "Open",
+      "price": 10.640000343322754,
+      "oldPrice": 13.899999618530273,
+      "author": {
+        "firstName": "Andre",
+        "lastName": "Agassi"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0072/9780007281435.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0072/9780007281435.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781447288503,
+      "title": "The Inner Game of Tennis",
+      "price": 7.019999980926514,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "W. Timothy",
+        "lastName": "Gallwey"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447288503.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447288503.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781473613805,
+      "title": "Black Box Thinking",
+      "price": 8.380000114440918,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Matthew",
+        "lastName": "Syed"
+      },
+      "genre": "Sport",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473613805.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473613805.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780241966839,
+      "title": "I Am Zlatan Ibrahimovic",
+      "price": 9.15999984741211,
+      "oldPrice": 11.399999618530273,
+      "author": {
+        "firstName": "Zlatan",
+        "lastName": "Ibrahimovic"
+      },
+      "genre": "Sport",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/2419/9780241966839.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/2419/9780241966839.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780007420124,
+      "title": "The Art of War",
+      "price": 3.0299999713897705,
+      "oldPrice": 3.109999895095825,
+      "author": {
+        "firstName": "Sun",
+        "lastName": "Tzu"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0074/9780007420124.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0074/9780007420124.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780393609394,
+      "title": "Astrophysics for People in a Hurry",
+      "price": 13.369999885559082,
+      "oldPrice": 17,
+      "author": {
+        "firstName": "Neil Degrasse",
+        "lastName": "Tyson"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3936/9780393609394.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3936/9780393609394.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780091922344,
+      "title": "Ottolenghi: The Cookbook",
+      "price": 29.700000762939453,
+      "oldPrice": 31.989999771118164,
+      "author": {
+        "firstName": "Yotam",
+        "lastName": "Ottolenghi"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0919/9780091922344.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/0919/9780091922344.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781579657185,
+      "title": "The Noma Guide to Fermentation (Foundations of Flavor)",
+      "price": 25.75,
+      "oldPrice": 35.95000076293945,
+      "author": {
+        "firstName": "RenÃ©",
+        "lastName": "Redzepi"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5796/9781579657185.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5796/9781579657185.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780545703307,
+      "title": "Lego Chain Reactions",
+      "price": 12.989999771118164,
+      "oldPrice": 17,
+      "author": {
+        "firstName": "Pat",
+        "lastName": "Murphy"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/5457/9780545703307.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/5457/9780545703307.jpg"
+      ],
+      "format": "Mixed media product",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781911344780,
+      "title": "Dark Emu",
+      "price": 12.460000038146973,
+      "oldPrice": 16,
+      "author": {
+        "firstName": "Bruce",
+        "lastName": "Pascoe"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/9113/9781911344780.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/9113/9781911344780.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781603582865,
+      "title": "The Art of Fermentation",
+      "price": 28.860000610351562,
+      "oldPrice": 37.099998474121094,
+      "author": {
+        "firstName": "Sandor Ellix",
+        "lastName": "Katz"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/6035/9781603582865.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/6035/9781603582865.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780141979366,
+      "title": "The Shepherd's Life",
+      "price": 9.729999542236328,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "James",
+        "lastName": "Rebanks"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141979366.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141979366.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781338219630,
+      "title": "LEGO Gadgets",
+      "price": 13.800000190734863,
+      "oldPrice": 17,
+      "author": {
+        "firstName": "Editors of",
+        "lastName": "Klutz"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/3382/9781338219630.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/3382/9781338219630.jpg"
+      ],
+      "format": "Mixed media product",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780241184837,
+      "title": "Hooked",
+      "price": 13.760000228881836,
+      "oldPrice": 16,
+      "author": {
+        "firstName": "Nir",
+        "lastName": "Eyal"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/2411/9780241184837.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/2411/9780241184837.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781447259947,
+      "title": "An Astronaut's Guide to Life on Earth",
+      "price": 7.75,
+      "oldPrice": 11.5,
+      "author": {
+        "firstName": "Chris",
+        "lastName": "Hadfield"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447259947.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4472/9781447259947.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780865717657,
+      "title": "The Market Gardener",
+      "price": 18.18000030517578,
+      "oldPrice": 18.989999771118164,
+      "author": {
+        "firstName": "Jean-Martin",
+        "lastName": "Fortier"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8657/9780865717657.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8657/9780865717657.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781473630819,
+      "title": "The Secret Lives of Colour",
+      "price": 17.75,
+      "oldPrice": 24,
+      "author": {
+        "firstName": "Kassia St.",
+        "lastName": "Clair"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473630819.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4736/9781473630819.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780857080097,
+      "title": "The Art of War",
+      "price": 9.84000015258789,
+      "oldPrice": 12,
+      "author": {
+        "firstName": "Sun",
+        "lastName": "Tzu"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8570/9780857080097.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/8570/9780857080097.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781451648539,
+      "title": "Steve Jobs",
+      "price": 27.520000457763672,
+      "oldPrice": 34.5,
+      "author": {
+        "firstName": "Walter",
+        "lastName": "Isaacson"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4516/9781451648539.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/4516/9781451648539.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780762415984,
+      "title": "The Art of War",
+      "price": 4.960000038146973,
+      "oldPrice": 4.989999771118164,
+      "author": {
+        "firstName": "Ralph D.",
+        "lastName": "Sawyer"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7624/9780762415984.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7624/9780762415984.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780316118408,
+      "title": "The Flavor Bible",
+      "price": 29.5,
+      "oldPrice": 38,
+      "author": {
+        "firstName": "Karen",
+        "lastName": "Page"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3161/9780316118408.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3161/9780316118408.jpg"
+      ],
+      "format": "Hardback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": true,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780141988351,
+      "title": "Chernobyl",
+      "price": 10.199999809265137,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Serhii",
+        "lastName": "Plokhy"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141988351.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/1419/9780141988351.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9781590173138,
+      "title": "The One-Straw Revolution",
+      "price": 9.220000267028809,
+      "oldPrice": 12.899999618530273,
+      "author": {
+        "firstName": "Masanobu",
+        "lastName": "Fukuoka"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5901/9781590173138.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9781/5901/9781590173138.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    },
+    {
+      "_id": 9780345376596,
+      "title": "Pale Blue Dot: a Vision of the Human Future in Space",
+      "price": 15.510000228881836,
+      "oldPrice": 15.989999771118164,
+      "author": {
+        "firstName": "Carl",
+        "lastName": "Sagan"
+      },
+      "genre": "Technology-Engineering",
+      "stars": 4.5,
+      "imgs": [
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3453/9780345376596.jpg",
+        "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/3453/9780345376596.jpg"
+      ],
+      "format": "Paperback",
+      "currency": "$",
+      "description": "Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.",
+      "isNew": false,
+      "_class": "com.bookstore.model.db.book.Book"
+    }
+  ]
