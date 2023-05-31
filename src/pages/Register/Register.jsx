@@ -7,13 +7,16 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import KeyOutlinedIcon from '@mui/icons-material/KeyOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import BadgeOutlinedIcon from '@mui/icons-material/BadgeOutlined';
-import {useNavigate} from "react-router-dom";
+import {useNavigate, useNavigation} from "react-router-dom";
+import {useCookies} from "react-cookie";
 
 const REGISTER_URL = process.env.REACT_APP_REGISTER_URL;
 
 const Register = (props) => {
-  const {setAuth} = useContext(AuthContext);
+  const [cookies, setCookie] = useCookies([]);
+  const {auth, setAuth} = useContext(AuthContext);
   const navigate = useNavigate();
+  const navigation = useNavigation();
   const usernameReference = useRef();
   const emailReference = useRef();
   const phoneReference = useRef();
@@ -52,11 +55,21 @@ const Register = (props) => {
           withCredentials: true
         }).then((response) => {
           console.log('data = ' + response?.data);
+
+          if (auth?.role === "ROLE_ADMIN" || cookies.role === "ROLE_ADMIN") {
+            navigate(-1);
+          }
+
           const accessToken = response?.data?.accessToken;
           const role = response?.data?.role;
 
-          window.sessionStorage.setItem('role', role);
           setAuth({username, password, role, accessToken});
+          setCookie("role", role, {
+            path: "/"
+          });
+          setCookie("accessToken", accessToken, {
+            path: "/"
+          });
 
           setUsername('');
           setPassword('');
