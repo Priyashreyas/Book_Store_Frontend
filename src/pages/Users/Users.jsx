@@ -38,7 +38,7 @@ const Users = (props) => {
         signal: abortController.signal
       }).then((response) => {
         console.log('uderData'+JSON.stringify(response));
-        isMounted && setUsers(i => response.data.users);
+        isMounted && setUsers(prevData => response.data.users);
       }, (error) => {
         console.error('Error = ' + error);
         console.error('Error response = ' + error?.response);
