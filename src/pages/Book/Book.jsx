@@ -2,10 +2,14 @@ import React, {useContext, useEffect, useState} from 'react';
 import './Book.scss'
 import AddShoppingCartOutlinedIcon from '@mui/icons-material/AddShoppingCartOutlined';
 import {useNavigate, useParams} from "react-router-dom";
+//import { Provider } from "react-redux";
 import axios from "../../api/Axios";
 import AuthContext from "../../context/AuthProvider";
 import useRefreshToken from "../../hooks/UseRefreshToken";
 import { Rating } from '@mui/material';
+import { useDispatch} from "react-redux"; 
+import { addToCart } from '../../redux/cartReducer';
+
 const BOOKS_URL = process.env.REACT_APP_BOOKS_URL;
 
 
@@ -14,13 +18,14 @@ const Book = (props) => {
   const navigate = useNavigate();
   const refresh = useRefreshToken();
 
+   const dispatch = useDispatch();
   console.log(`auth1 = ${auth?.accessToken}`);
 
   const {id} = useParams();
   const [selectedImg, setSelectedImg] = useState(() => 0);
   const [quantity, setQuantity] = useState(() => 1);
   const [bookData, setBookData] = useState(() => null);
-
+ 
   useEffect(() => {
     let isMounted = true;
     console.log("Effect called!!");
@@ -41,7 +46,7 @@ const Book = (props) => {
       // console.log(`auth2 = ${auth?.accessToken}`);
       // console.log(`at = ${at}`);
       console.log(`role = ${auth?.role}, ls = ${window.sessionStorage.getItem('role')}`);
-
+      console.log('BOOKS_URL '+BOOKS_URL);
 
       axios.get(`${BOOKS_URL}/${id}`, {
         headers: {
@@ -125,8 +130,20 @@ const Book = (props) => {
             {quantity}
             <button onClick={event => setQuantity(prevState => prevState + 1)}>+</button>
           </div>
-          <button className="add">
-            <AddShoppingCartOutlinedIcon/> ADD TO CART
+          
+          <button className="add" onClick={()=>
+          dispatch(
+            addToCart({
+            id:bookData.id,
+            title:bookData.title,
+            desc:bookData.desc,
+            price:bookData.price,
+            imgs:bookData.imgs[0],
+            quantity,
+
+          }))}>
+           {/* ////  */}
+            <AddShoppingCartOutlinedIcon/> ADD TO CART 
           </button>
         </div>
       </div>

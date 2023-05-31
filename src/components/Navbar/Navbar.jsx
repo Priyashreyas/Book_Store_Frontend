@@ -7,6 +7,7 @@ import Cart from "../../pages/Cart/Cart";
 import axios from "../../api/Axios";
 import AuthContext from "../../context/AuthProvider";
 import SearchIcon from "@material-ui/icons/Search";
+import {useSelector} from "react-redux";
 import CloseIcon from "@material-ui/icons/Close";
 
 const LOGOUT_URL = process.env.REACT_APP_LOGOUT_URL;
@@ -18,6 +19,7 @@ const Navbar = ({ placeholder, data }) => {
   const {auth} = useContext(AuthContext);
   const navigate = useNavigate();
   const nonLoggedInPages = new Set(['/login', '/register']);
+  const Book = useSelector(state=>state.cart.Book);
 
   //added ankita
   const [filteredData, setFilteredData] = useState([]);
@@ -100,7 +102,7 @@ const Navbar = ({ placeholder, data }) => {
         <div className="left">
           <div className="item">
             <Link className="link" to="/">
-              <img className="booksImage" src="/img/book_store_logo.png" alt="Book Store"/>
+              <img className="booksImage" src="/img/bookLogo1.png" alt="Book Store"/>
             </Link>
           </div>
          {/* <div className="item">
@@ -145,7 +147,7 @@ const Navbar = ({ placeholder, data }) => {
     </div>
         </div>
         <div className="center">
-          <Link className="link" to="/">BOOK&nbsp;&nbsp;STORE</Link>
+          <Link className="link" to="/">PIONEER&nbsp;BOOK&nbsp;STORE</Link>
         </div>
         <div className="right">
           {auth?.role === "ROLE_ADMIN" &&
@@ -153,12 +155,20 @@ const Navbar = ({ placeholder, data }) => {
               {/*TODO: Add a page to add new book*/}
               <Link className="link" to="/book/new">Add Book</Link>
             </div>
+            
+            
+          }
+          {auth?.role === "ROLE_ADMIN" &&
+            <div className="item">
+              <Link className="link" to="/delete">Delete Books</Link>
+            </div>
           }
           {auth?.role === "ROLE_ADMIN" &&
             <div className="item">
               <Link className="link" to="/users">Users</Link>
             </div>
           }
+          
 
           <div className="item">
             <Link className="link" to="/about">About Us</Link>
@@ -171,7 +181,7 @@ const Navbar = ({ placeholder, data }) => {
             <div className="cartIcon" onClick={event => setOpen(!open)}>
               <Link className="link" to="/cart">
                 <ShoppingCartCheckoutIcon/>
-                <span>0</span>
+                <span>{Book.length}</span>
               </Link>
             </div>
             {!nonLoggedInPages.has(location.pathname) &&

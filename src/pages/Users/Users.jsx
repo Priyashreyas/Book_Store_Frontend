@@ -30,15 +30,15 @@ const Users = (props) => {
       if (auth?.accessToken == null) {
         at = await refresh();
       }
-
+      console.log('USERS_URL'+USERS_URL);
       axios.get(USERS_URL, {
         headers: {
           Authorization: 'Bearer ' + at
         },
         signal: abortController.signal
       }).then((response) => {
-        console.log(response.data.users);
-        isMounted && setUsers(prevData => response.data.users);
+        console.log('uderData'+JSON.stringify(response));
+        isMounted && setUsers(i => response.data.users);
       }, (error) => {
         console.error('Error = ' + error);
         console.error('Error response = ' + error?.response);

@@ -10,6 +10,7 @@ import Register from "./pages/Register/Register";
 import Cart from "./pages/Cart/Cart";
 import About from "./pages/About/About";
 import EditBook from "./pages/Book/EditBook";
+import DeleteBooks from "./pages/Book/DeleteBooks";
 import Users from "./pages/Users/Users";
 import EditUser from "./pages/Users/EditUser";
 import NewBook from "./pages/Book/NewBook";
@@ -67,6 +68,14 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register/>
+      },
+      {
+        path: "/register",
+        element: <Register/>
+      },
+      {
+        path: "/delete",
+        element: <DeleteBooks/>
       },
       {
         path: "/users",
