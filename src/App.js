@@ -15,6 +15,7 @@ import Users from "./pages/Users/Users";
 import EditUser from "./pages/Users/EditUser";
 import NewBook from "./pages/Book/NewBook";
 import BookData from './BookData.json';
+import Order from './pages/Order/Order'
 
 const Layout = () => {
   return (
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
       {
         path: "/cart",
         element: <Cart/>
+      },
+      {
+        path: "/order",
+        element: <Order/>
       },
       {
         path: "/category/:id",
