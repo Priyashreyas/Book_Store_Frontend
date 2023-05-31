@@ -58,6 +58,7 @@ const Register = (props) => {
 
           if (auth?.role === "ROLE_ADMIN" || cookies.role === "ROLE_ADMIN") {
             navigate(-1);
+            return
           }
 
           const accessToken = response?.data?.accessToken;
