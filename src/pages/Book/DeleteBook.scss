@@ -1,0 +1,87 @@
+.users {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 18px;
+    font-weight: 400;
+  
+    .usersList {
+      max-height: 800px;
+      max-width: 1300px;
+      overflow: auto;
+  
+      table {
+        margin-top: 50px;
+  
+        thead {
+          tr {
+            th {
+              padding-bottom: 20px;
+              font-size: 20px;
+            }
+          }
+        }
+  
+        tbody {
+          tr {
+            height: 80px;
+  
+            td {
+              padding: 0px 30px;
+  
+              .editButton {
+                width: 120px;
+                padding: 10px;
+                background-color: #1e6df5;
+                color: white;
+                border: none;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                justify-content: center;
+                font-weight: 400;
+                font-size: 15px;
+              }
+  
+              .deleteButton {
+                width: 120px;
+                padding: 10px;
+                background-color: #c9092c;
+                color: white;
+                border: none;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                justify-content: center;
+                font-weight: 400;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .link {
+      .newUserButton {
+        margin-top: 50px;
+        width: 250px;
+        padding: 10px;
+        background-color: #1e6df5;
+        color: white;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 15px;
+      }
+    }
+  }
+  
