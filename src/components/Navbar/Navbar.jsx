@@ -173,7 +173,9 @@ const Navbar = ({ placeholder, data }) => {
             </div>
           }
           
-
+          <div className="item">
+            <Link className="link" to="/order">Order Management</Link>
+          </div>
           <div className="item">
             <Link className="link" to="/about">About Us</Link>
           </div>
