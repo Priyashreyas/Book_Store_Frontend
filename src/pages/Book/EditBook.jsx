@@ -179,6 +179,10 @@ const EditBook = (props) => {
     });
   };
 
+  async function onBookDescriptionChange(event) {
+    setBookDescription(event.target.value);
+  }
+
   if (bookData) {
     return (
       <div className="book">
@@ -256,7 +260,13 @@ const EditBook = (props) => {
           </div>
           <div className="item">
             Description:
-            <textarea id={"bookDescription"} name="bookDescription" rows="10" cols="50" required>
+            <textarea id={"bookDescription"}
+                      name="bookDescription"
+                      rows="10"
+                      cols="50"
+                      onChange={onBookDescriptionChange}
+                      value={bookDescription}
+                      required>
               {bookDescription}
             </textarea>
           </div>

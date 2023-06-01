@@ -37,8 +37,6 @@ const NewBook = (props) => {
       at = await refresh();
     }
 
-    console.log(`Role = ${auth?.role}`)
-
     axios.post(BOOKS_URL,
       JSON.stringify({
         book: {

@@ -6,6 +6,7 @@ import './Navbar.scss'
 import Cart from "../../pages/Cart/Cart";
 import axios from "../../api/Axios";
 import AuthContext from "../../context/AuthProvider";
+import {useCookies} from "react-cookie";
 import SearchIcon from "@material-ui/icons/Search";
 import {useSelector} from "react-redux";
 import CloseIcon from "@material-ui/icons/Close";
@@ -13,6 +14,7 @@ import CloseIcon from "@material-ui/icons/Close";
 const LOGOUT_URL = process.env.REACT_APP_LOGOUT_URL;
 
 const Navbar = ({ placeholder, data }) => {
+  const [cookies, setCookie, removeCookie] = useCookies([]);
   const {setAuth} = useContext(AuthContext);
   const [open, setOpen] = useState(false);
   const location = useLocation();
@@ -68,6 +70,8 @@ const Navbar = ({ placeholder, data }) => {
     }).then((response) => {
       console.log(response.data);
       setAuth({});
+      removeCookie("role");
+      removeCookie("accessToken");
       navigate('/login');
     }, (error) => {
       console.error('Error = ' + error);
@@ -150,7 +154,7 @@ const Navbar = ({ placeholder, data }) => {
           <Link className="link" to="/">PIONEER&nbsp;BOOK&nbsp;STORE</Link>
         </div>
         <div className="right">
-          {auth?.role === "ROLE_ADMIN" &&
+          {(auth?.role === "ROLE_ADMIN" || cookies.role === "ROLE_ADMIN") &&
             <div className="item">
               {/*TODO: Add a page to add new book*/}
               <Link className="link" to="/book/new">Add Book</Link>
@@ -163,7 +167,7 @@ const Navbar = ({ placeholder, data }) => {
               <Link className="link" to="/delete">Delete Books</Link>
             </div>
           }
-          {auth?.role === "ROLE_ADMIN" &&
+          {(auth?.role === "ROLE_ADMIN" || cookies.role === "ROLE_ADMIN") &&
             <div className="item">
               <Link className="link" to="/users">Users</Link>
             </div>

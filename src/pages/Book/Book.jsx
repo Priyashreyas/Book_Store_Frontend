@@ -6,6 +6,7 @@ import {useNavigate, useParams} from "react-router-dom";
 import axios from "../../api/Axios";
 import AuthContext from "../../context/AuthProvider";
 import useRefreshToken from "../../hooks/UseRefreshToken";
+import {useCookies} from "react-cookie";
 import { Rating } from '@mui/material';
 import { useDispatch} from "react-redux"; 
 import { addToCart } from '../../redux/cartReducer';
@@ -14,12 +15,12 @@ const BOOKS_URL = process.env.REACT_APP_BOOKS_URL;
 
 
 const Book = (props) => {
+  const [cookies, setCookie] = useCookies([]);
   const {auth} = useContext(AuthContext);
   const navigate = useNavigate();
   const refresh = useRefreshToken();
 
    const dispatch = useDispatch();
-  console.log(`auth1 = ${auth?.accessToken}`);
 
   const {id} = useParams();
   const [selectedImg, setSelectedImg] = useState(() => 0);
@@ -28,7 +29,6 @@ const Book = (props) => {
  
   useEffect(() => {
     let isMounted = true;
-    console.log("Effect called!!");
     console.log(bookData);
     if (bookData) {
       return;
@@ -43,10 +43,6 @@ const Book = (props) => {
       if (auth?.accessToken == null) {
         at = await refresh();
       }
-      // console.log(`auth2 = ${auth?.accessToken}`);
-      // console.log(`at = ${at}`);
-      console.log(`role = ${auth?.role}, ls = ${window.sessionStorage.getItem('role')}`);
-      console.log('BOOKS_URL '+BOOKS_URL);
 
       axios.get(`${BOOKS_URL}/${id}`, {
         headers: {
@@ -104,7 +100,7 @@ const Book = (props) => {
           </div>
         </div>
         <div className="right">
-          {auth?.role === "ROLE_ADMIN" &&
+          {(auth?.role === "ROLE_ADMIN" || cookies.role === "ROLE_ADMIN") &&
             <button className="editBook" onClick={event => navigate(`/book/${id}/edit`)}>
               EDIT BOOK
             </button>
@@ -124,27 +120,30 @@ const Book = (props) => {
             <span>Author: {bookData.author.firstName} {bookData.author.lastName}</span>
             <span>Genre: {bookData.genre}</span>
           </div>
-         {/*  <p>{bookData.description}</p>  */}
-          <div className="quantity">
-            <button onClick={event => setQuantity(prevState => prevState === 1 ? 1 : prevState - 1)}>-</button>
-            {quantity}
-            <button onClick={event => setQuantity(prevState => prevState + 1)}>+</button>
-          </div>
-          
-          <button className="add" onClick={()=>
-          dispatch(
-            addToCart({
-            id:bookData.id,
-            title:bookData.title,
-            desc:bookData.desc,
-            price:bookData.price,
-            imgs:bookData.imgs[0],
-            quantity,
+          <p>{bookData.description}</p>
 
-          }))}>
-           {/* ////  */}
-            <AddShoppingCartOutlinedIcon/> ADD TO CART 
-          </button>
+          {(auth?.role !== "ROLE_ADMIN" && cookies.role !== "ROLE_ADMIN") &&
+            <div className="quantity">
+              <button onClick={event => setQuantity(prevState => prevState === 1 ? 1 : prevState - 1)}>-</button>
+              {quantity}
+              <button onClick={event => setQuantity(prevState => prevState + 1)}>+</button>
+            </div>
+          }
+          {(auth?.role !== "ROLE_ADMIN" && cookies.role !== "ROLE_ADMIN") &&
+            <button className="add" onClick={()=>
+            dispatch(
+              addToCart({
+              id:bookData.id,
+              title:bookData.title,
+              desc:bookData.desc,
+              price:bookData.price,
+              imgs:bookData.imgs[0],
+              quantity,
+
+            }))}>
+              <AddShoppingCartOutlinedIcon/> ADD TO CART
+            </button>
+          }
         </div>
       </div>
     )

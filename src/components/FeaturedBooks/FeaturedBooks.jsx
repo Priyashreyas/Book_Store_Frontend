@@ -1,67 +1,111 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import './FeaturedBooks.scss'
 import Card from "../Card/Card";
 import axios from "../../api/Axios";
+import AuthContext from "../../context/AuthProvider";
+import useRefreshToken from "../../hooks/UseRefreshToken";
+import {useNavigate} from "react-router-dom";
+import {useCookies} from "react-cookie";
 
-const AUTH_URL = process.env.REACT_APP_AUTHENTICATE_URL;
 const BOOKS_URL = process.env.REACT_APP_BOOKS_URL;
 
 const FeaturedBooks = ({type}) => {
+  const [cookies, setCookie] = useCookies([]);
+  const {auth} = useContext(AuthContext);
+  const refresh = useRefreshToken();
+  const navigate = useNavigate();
   const [bookData, setBookData] = useState(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    let isMounted = true;
     if (bookData) {
       return;
     }
 
-    getBookData();
-  });
+    const abortController = new AbortController();
 
-  async function getBookData() {
-    if (loading) {
-      return;
-    }
-    setLoading(true);
-
-    let token = null;
-    await axios.post(AUTH_URL, {
-      "username": "maitreyee",
-      "password": "maitreyee"
-    }).then((response) => {
-      console.log('role = ' + response.data.role);
-      console.log('token = ' + response.data.accessToken);
-      token = response.data.accessToken;
-    }, (error) => {
-      console.error('Error = ' + error);
-    });
-
-    console.log(`${BOOKS_URL}?count=10`);
-
-    await axios.get(`${BOOKS_URL}?count=10`, {
-      headers: {
-        Authorization: 'Bearer ' + token
+    async function getBookData() {
+      if (loading) {
+        return;
       }
-    }).then((response) => {
-      console.log(response.data.books);
-      setBookData(response.data.books);
-      setLoading(false);
-    }, (error) => {
-      console.error('Error = ' + error);
-    });
-  }
+      setLoading(true);
+
+      let at = auth?.accessToken;
+      if (at === undefined || at === null) {
+        at = cookies.accessToken;
+      }
+
+      if (at === undefined || at === null) {
+        at = await refresh();
+      }
+
+      console.log(`${BOOKS_URL}?count=10,type=${type}`);
+
+      await axios.get(`${BOOKS_URL}?count=10&type=${type}`, {
+        headers: {
+          Authorization: 'Bearer ' + at
+        }
+      }).then((response) => {
+        console.log(response.data.books);
+        isMounted && setBookData(response.data.books);
+        setLoading(false);
+      }, (error) => {
+        console.error('Error = ' + error);
+        if (error?.response) {
+          switch (error?.response?.status) {
+            case 400:
+              console.log('Missing username or password.');
+              break;
+            case 401:
+              console.log('Unauthorized request.');
+              break;
+            case 403:
+              console.log('Invalid username or password.');
+              break;
+            case 415:
+              console.log('Unsupported request payload format.');
+              break;
+            default:
+              console.log('Failed to get the book data.');
+              break;
+          }
+          if (error?.response?.status === 400 || error?.response?.status === 401 || error?.response?.status === 403) {
+            navigate('/login');
+          }
+        }
+      });
+    }
+
+    getBookData();
+
+    return () => {
+      isMounted = false;
+      abortController.abort();
+    }
+  }, []);
+
 
   if (bookData) {
     return (
       <div className="featuredBooks">
         <div className="top">
           <h1>{type} products</h1>
-         {/* <p>
-            Senectus suscipit ipsum impedit? Aliquip aliquid iure fringilla, erat natoque deleniti esse architecto,
-            class convallis sagittis nisl sunt vel harum sem reprehenderit. Bibendum pretium sodales architecto hac
-            eligendi repudiandae dolorum, dolorum ex. Quis eum, quasi sociosqu, ultricies dolorem, porro fermentum
-            lobortis commodi cillum interdum, lacus qui, commodo illum. Diam. Consequuntur.
-    </p> */}
+          {type === "featured" &&
+            <p>
+              Discover our handpicked selection of featured books, carefully chosen to ignite your imagination,
+              stir your emotions, and transport you to captivating worlds. Whether you're seeking a thrilling
+              adventure, a thought-provoking tale, or a heartwarming story, our featured books have something
+              for every reader.
+            </p>
+          }
+          {type === "trending" &&
+            <p>
+              Stay ahead of the literary curve with our collection of trending books that are captivating
+              readers and generating buzz in the literary world. These are the books that everyone is talking
+              about and you won't want to miss.
+            </p>
+          }
         </div>
         <div className="bottom">
           <div className={"cards"}>

@@ -5,10 +5,12 @@ import axios from "../../api/Axios";
 import {Link, useNavigate} from "react-router-dom";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import KeyOutlinedIcon from "@mui/icons-material/KeyOutlined";
+import {useCookies} from "react-cookie";
 
 const AUTH_URL = process.env.REACT_APP_AUTHENTICATE_URL;
 
 const Login = (props) => {
+  const [cookies, setCookie] = useCookies([]);
   const {setAuth} = useContext(AuthContext);
   const navigate = useNavigate();
   const usernameReference = useRef();
@@ -46,8 +48,14 @@ const Login = (props) => {
           const accessToken = response?.data?.accessToken;
           const role = response?.data?.role;
 
-          window.sessionStorage.setItem('role', role);
           setAuth({username, password, role, accessToken});
+
+          setCookie("role", role, {
+            path: "/"
+          });
+          setCookie("accessToken", accessToken, {
+            path: "/"
+          });
 
           setSuccess(true);
           setUsername('');
