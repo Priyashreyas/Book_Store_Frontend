@@ -139,8 +139,10 @@ const Navbar = ({ placeholder, data }) => {
             <div className="dataResult">
               {filteredData.slice(0, 8).map((value, key) => {
                 return (
+                 
                   <a className="dataItem" href={'http://localhost:3000/book/'+value._id} target="_blank">
                      <p>{value.title} </p>
+                  
                  </a>
                 );
                 

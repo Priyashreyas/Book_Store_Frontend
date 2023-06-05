@@ -34,8 +34,14 @@ const [bookDataDelete, setBookData] = useState(() => null);
     }
 
     const abortController = new AbortController();
+    getBookData(abortController, isMounted);
+    return () => {
+      isMounted = false;
+      abortController.abort();
+    }
+  }, []);
 
-    async function getBookData() {
+    async function getBookData(abortController, isMounted) {
 
         let at = auth?.accessToken;
   
@@ -50,13 +56,13 @@ const [bookDataDelete, setBookData] = useState(() => null);
             Authorization: 'Bearer ' + at,
           
           },
-        
-         signal: abortController.signal
+        signal: abortController.signal
          //console.log('my response of delete'+response.data.book);
         }).then((getResponse) => {
           console.log('my response of delete'+JSON.stringify(getResponse));
           isMounted && setBookData(prevData => getResponse.data.books);
           console.log('prevData in delete'+bookDataDelete);
+          navigate('/delete');
         }, (error) => {
           console.error('Error = ' + error);
           console.error('Error response = ' + error?.response);
@@ -85,15 +91,7 @@ const [bookDataDelete, setBookData] = useState(() => null);
             }
           }
         });
-      }
-
-    getBookData();
-
-    return () => {
-      isMounted = false;
-      abortController.abort();
-    }
-  }, []);
+  }
 
   async function deleteBook(id) {
     let at = auth?.accessToken;
@@ -110,6 +108,11 @@ const [bookDataDelete, setBookData] = useState(() => null);
         withCredentials: true,
       }).then((response) => {
       console.log(response.data.message);
+      console.log(response.data.message);
+      const abortController = new AbortController();
+
+      getBookData(abortController, true);
+
     }, (error) => {
       console.error('Error = ' + error);
       console.error('Error response = ' + error?.response);
@@ -161,9 +164,6 @@ const [bookDataDelete, setBookData] = useState(() => null);
                   Delete Book
                 </button>
               </td>
-             
-             
-              
             </tr>
           ))}
           </tbody>

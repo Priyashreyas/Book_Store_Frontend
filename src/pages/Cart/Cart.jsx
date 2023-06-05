@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.scss'
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import {useSelector} from "react-redux"
-import { removeItem, resetCart } from "../../redux/cartReducer";
+import { removeItem, resetCart, addToCart } from "../../redux/cartReducer";
 import { Provider } from "react-redux";
 import {useContext, useState} from 'react';
 import {useNavigate} from "react-router-dom";
@@ -54,24 +54,26 @@ const Cart = (props) => {
     }
     console.log('CART_URL '+CART_URL);
     console.log(`Role = ${auth?.role}`)
-
+    
+    let addToCartValus = dispatch(addToCart);
+    console.log('dispatch(addToCart'+JSON.stringify(addToCartValus));
     axios.post(CART_URL,
       JSON.stringify({
-        book: {
-          title: bookTitle,
-          author: authorFirstName,
-          genre: bookGenre,
-          description: bookDescription,
-          currency,
-          price,
-          quantity,
-          trackingStatus,
-          stars,
-          isNew,
-          //imgs: [images],
-          id: bookId,
-          format: bookFormat,
-        }
+        order: {
+          title: 'How to Draw Anything',
+          id: 9780716022237,
+          //author: 'Mark Linley',
+          genre: 'Art-Photography',
+          description: 'Fuga feugiat aliquid dolore rem curae eu tempus maecenas porttitor pede mauris diamlorem integer tempus, iusto, mauris, aliquam quos nibh! Sequi doloremque, accusamus! Eleifend? Eos exercitation faucibus proin labore do volutpat nam? Illum, litora modi augue? Aliquid impedit? Perferendis iste aliquet hac sunt at. Consectetuer. Nemo sunt perferendis, voluptates mollis.',
+          currency: '$',
+          price: 5.26,
+          quantity: 2,
+          trackingStatus : 'Shipped',
+          stars : 3.5,
+          imgs: 'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/mid/9780/7160/9780716022237.jpg',
+          format: 'Paperback', 
+        },
+        
       }),
       {
         headers: {
@@ -82,7 +84,7 @@ const Cart = (props) => {
       }).then((response) => {
       console.log(response.data.book);
       console.error('success in cart');
-      navigate(`/book`);
+      navigate(`/`);
     }, (error) => {
 
       console.error('Error in Cart= ' + error);
@@ -120,9 +122,9 @@ const Cart = (props) => {
       <h1>Books in your cart</h1>
       {Book?.map(book=>(
         <div className="item" key={book.id}>
-          <img src={book.imgs} alt="hi"/>
+          <img src={book.imgs} alt="hi" id="images" />
           <div className="details">
-            <h1>{book.title}</h1>
+            <h1>{book.title} </h1>
             <p>{book.author}</p>
             <div className="price">
               {book.quantity} x {book.price}
