@@ -53,7 +53,6 @@ const Navbar = ({ placeholder, data }) => {
     setWordEntered("");
   };
 
-
   const logout = async function () {
     console.log(auth?.accessToken);
     if (auth?.accessToken === null) {
@@ -116,6 +115,7 @@ const Navbar = ({ placeholder, data }) => {
             <Link className="link" to="/category/2">Trending</Link>
           </div>
   */}
+{!nonLoggedInPages.has(location.pathname) &&
    <div className="search">
         <div className="searchInputs">
             <input
@@ -151,6 +151,7 @@ const Navbar = ({ placeholder, data }) => {
             
           )}
     </div>
+  }
         </div>
         <div className="center">
           <Link className="link" to="/">PIONEER&nbsp;BOOK&nbsp;STORE</Link>
@@ -174,10 +175,11 @@ const Navbar = ({ placeholder, data }) => {
               <Link className="link" to="/users">Users</Link>
             </div>
           }
-          
+          {!nonLoggedInPages.has(location.pathname) &&
           <div className="item">
-            <Link className="link" to="/order">Orders</Link>
+            <Link className="link" to="/order">Order </Link>
           </div>
+          }
           <div className="item">
             <Link className="link" to="/about">About Us</Link>
           </div>
@@ -186,12 +188,14 @@ const Navbar = ({ placeholder, data }) => {
             {/*  <SearchOutlinedIcon/>*/}
             {/*</div>*/}
             {/*<PersonOutlineIcon/>*/}
+            {!nonLoggedInPages.has(location.pathname) &&
             <div className="cartIcon" onClick={event => setOpen(!open)}>
               <Link className="link" to="/cart">
                 <ShoppingCartCheckoutIcon/>
                 <span>{Book.length}</span>
               </Link>
             </div>
+            }
             {!nonLoggedInPages.has(location.pathname) &&
               <div className="logoutIcon" onClick={event => logout()}>
                 <LogoutOutlinedIcon/>
@@ -208,3 +212,4 @@ const Navbar = ({ placeholder, data }) => {
 }
 
 export default Navbar;
+
