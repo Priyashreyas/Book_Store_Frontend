@@ -1,31 +1,19 @@
 import React, {useContext, useEffect, useState} from 'react';
 import './Order.scss'
-import AddShoppingCartOutlinedIcon from '@mui/icons-material/AddShoppingCartOutlined';
-import {useNavigate, useParams} from "react-router-dom";
 import axios from "../../api/Axios";
 import AuthContext from "../../context/AuthProvider";
 import useRefreshToken from "../../hooks/UseRefreshToken";
 import { Rating } from '@mui/material';
-import { useDispatch} from "react-redux"; 
-const ORDERS_URL = '/api/v1/order';
-const AUTH_URL = process.env.REACT_APP_AUTHENTICATE_URL;
+
+const ORDER_URL = process.env.REACT_APP_ORDER_URL;
 
 const Order = (props) => {
   const {auth} = useContext(AuthContext);
-  const navigate = useNavigate();
   const refresh = useRefreshToken();
-
-  const dispatch = useDispatch();
-  console.log(`auth1 = ${auth?.accessToken}`);
-
-  const [selectedImg, setSelectedImg] = useState(() => 0);
-  const [quantity, setQuantity] = useState(() => 1);
-  const [orderData, setOrderData] = useState(() => null);
+  const [orderData, setOrderData] = useState(null);
 
   useEffect(() => {
     let isMounted = true;
-    console.log("Effect called!!");
-    console.log(orderData);
     if (orderData) {
       return;
     }
@@ -34,30 +22,20 @@ const Order = (props) => {
 
     async function getOrderData() {
 
-      let at = auth?.accessToken;
+      let at = auth?.accessToken; 
 
-      if (auth?.accessToken == null) {
+      if (at === undefined || at === null) {
         at = await refresh();
       }
-      //console.log(`auth2 = ${auth?.accessToken}`);
-      //console.log(`at = ${at}`);
-      console.log(`role = ${auth?.role}, ls = ${window.sessionStorage.getItem('role')}`);
-      console.log('Orders URL '+ORDERS_URL);
-      console.log(`${ORDERS_URL}?count=10`);
 
-      axios.get(`${ORDERS_URL}`, {
+      await axios.get(`${ORDER_URL}?count=10`, {
         headers: {
-          Authorization: 'Bearer ' + at
-        },
-        signal: abortController.signal
+          Authorization: 'Bearer ' + at,
+        }
       }).then((response) => {
-        console.log(response.data.order);
-        isMounted && setOrderData(prevData => response.data.order);
+        isMounted && setOrderData(prevData => response.data);
       }, (error) => {
         console.error('Error = ' + error);
-        console.error('Error response = ' + error?.response);
-        console.error('Error status = ' + error?.response?.status);
-
         if (error?.response) {
           switch (error?.response?.status) {
             case 400:
@@ -95,33 +73,57 @@ const Order = (props) => {
     return (
       <div className="order">
         <div className="left">
-          <h1>{orderData.title}</h1>
-          <span className="price">{orderData.currency}{orderData.price}</span>
-          <Rating
-            name="ratingComp"
-            value={orderData.stars}
-            precision={0.5}
-            readOnly
-            onChange={(event, newValue) => {
-            //setValue(newValue);
-            }}
-          />
-          <div className="info">
-            <span>Author: {orderData.author.firstName} {orderData.author.lastName}</span>
-            <span>Genre: {orderData.genre}</span>
-          </div>
-         {/*  <p>{bookData.description}</p>  */}
+          <h2>Your Previous Orders</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Order Id</th>
+                <th>Book Title</th>
+                <th>Genre</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Status</th>
+                <th>Ratings</th>
+                <th>Review</th>
+              </tr>
+            </thead>
+          <tbody>
+          {orderData.books.map(book => (
+            <tr>
+              <td>{book.id}</td>
+              <td>{book.title} </td>
+              <td>{book.genre}</td>
+              <td>{book.currency} {book.price}</td>
+              <td>{book.quantity}</td>
+              <td>{book.trackingStatus}</td>
+              <td>
+                <Rating
+                name="ratingComp"
+                value={book.stars}
+                precision={0.5}
+                readOnly
+                onChange={(event, newValue) => {
+                //setValue(newValue);
+                }}
+                />
+              </td>
+              <td>{book.review}</td>
+            </tr>
+            ))}
+          </tbody>
+        </table>
         </div>
       </div>
     )
   } else {
     return (
-      <div className={"loading"}>
-        <img className="loadingImage" src="/img/loading-waiting.gif" alt="Order data is loading..."/>
+      <div className="order">
+        <div className="left">
+          <h2>You have not placed any orders yet.</h2>
+        </div>
       </div>
     )
   }
-
 };
 
 export default Order;

@@ -176,7 +176,7 @@ const Navbar = ({ placeholder, data }) => {
           }
           
           <div className="item">
-            <Link className="link" to="/order">Order Management</Link>
+            <Link className="link" to="/order">Orders</Link>
           </div>
           <div className="item">
             <Link className="link" to="/about">About Us</Link>
